@@ -1,0 +1,38 @@
+{
+  "name": "table-component-reactjs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Introducing the DynamicTable component: a powerful tool designed to enhance user experience and streamline data visualization within React applications. With its innovative features, DynamicTable offers unparalleled flexibility and ease of use. DynamicTable boasts dynamic column sizing, allowing your data to be displayed in the most visually appealing and efficient manner possible. Gone are the days of rigid, fixed-width tables - with DynamicTable, columns adjust dynamically to accommodate varying content lengths, ensuring optimal readability without sacrificing aesthetics. What's more, the table container width is fully adjustable, giving users the ability to customize their viewing experience according to their preferences. Whether you're working with a compact layout or need to display extensive datasets, DynamicTable adapts effortlessly to suit your needs. Powered by a simple array of JSON objects as data input, integrating and managing your data within DynamicTable is a breeze. Simply provide the array, and let DynamicTable handle the rest, efficiently rendering your data with precision and clarity. But that's not all. DynamicTable features auto-scrolling functionality within each table cell, enabling seamless navigation through large datasets. Say goodbye to tedious manual scrolling - with DynamicTable, users can effortlessly explore their data with ease and efficiency.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "react-icons": "^5.0.1",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "styled-components": "^6.1.8"
+  }
+}
